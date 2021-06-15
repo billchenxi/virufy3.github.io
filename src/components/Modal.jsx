@@ -55,12 +55,8 @@ function calculatePosition(triggerRef, scale) {
 
 function usePositionCalculation(triggerRef, scale, show) {
   // Calculate initial values for state
-  const [
-    initialTop,
-    initialLeft,
-    initialWidth,
-    initialHeight,
-  ] = calculatePosition(triggerRef, scale);
+  const [initialTop, initialLeft, initialWidth, initialHeight] =
+    calculatePosition(triggerRef, scale);
 
   // Initialize state hooks
   const [top, setTop] = usePx(initialTop);
