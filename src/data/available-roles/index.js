@@ -104,4 +104,11 @@ export const roles = [
     title: "Product Marketeer",
     url: "https://virufy.org/apply",
   },
+  {
+    description:
+      "Seeking an individual to contribute on a part-time volunteer basis and collaborate closely with the Virufy management and development team to help manage the overall business, product, and finances.",
+    location: "Remote",
+    title: "Business Manager",
+    url: "https://virufy.org/apply",
+  },
 ];
